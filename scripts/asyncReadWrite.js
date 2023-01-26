@@ -40,3 +40,5 @@ const readFiles2 = async () => {
     console.log("Program Ended");
   }
 };
+
+readFiles2();
