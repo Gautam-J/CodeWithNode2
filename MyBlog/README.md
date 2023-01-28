@@ -29,5 +29,5 @@
 - GET - `/` - Get all blogs
 - GET - `/:id` - Get blog by id
 - PUT - `/:id` - Update blog by id
-- POST - `/create` - Create new blog
 - DELETE - `/:id` - Delete blog by id
+- POST - `/create` - Create new blog
