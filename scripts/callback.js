@@ -3,8 +3,12 @@ const greet = (username) => {
 };
 
 const processUserInput = (callback) => {
-  const username = "Gautam";
-  callback(username);
+  console.log("Inside processUserInput");
+  callback("Gautam");
 };
 
 processUserInput(greet);
+
+processUserInput(() => {
+  console.log("Inside Callback function");
+});
